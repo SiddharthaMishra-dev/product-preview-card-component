@@ -1,0 +1,66 @@
+.container-fluid {
+  padding: 10% 28%;
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  line-height: 1.5;
+  font-family: "Montserrat";
+}
+.text-muted {
+  color: hsl(228, 12%, 48%);
+}
+.card-details {
+  padding: 2%;
+}
+.card-header {
+  background-color: #fff;
+  border-bottom: #fff;
+  letter-spacing: 0.3rem;
+}
+.header {
+  font-size: 14px;
+  padding-top: 3%;
+}
+.product-title {
+  font-family: "Fraunces";
+  padding-bottom: 7%;
+}
+.product-description {
+  font-size: 14px;
+  padding-bottom: 4%;
+}
+.product-img {
+  height: 100%;
+}
+
+.price {
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces";
+  font-weight: 700;
+  display: inline;
+}
+.price-canceled {
+  display: inline;
+  text-decoration: line-through;
+  font-size: 1rem;
+  margin-left: 10%;
+  padding: 5% 0;
+}
+.card-footer {
+  background-color: #fff;
+  border: #fff;
+  text-align: center;
+}
+.cart-btn {
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  width: 100%;
+  padding: 5%;
+}
+.cart-btn:hover {
+  background-color: hsl(212, 21%, 14%);
+  color: #fff;
+}
+.cart-icon {
+  margin: 0 5%;
+}
